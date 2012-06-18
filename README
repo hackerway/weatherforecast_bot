@@ -1,0 +1,13 @@
+神戸市の天気予報をつぶやくtwitter botです。
+正午より前であれば当日の天気予報、正午より後であれば翌日の天気予報をつぶやきます。
+以下のソースから情報を取得しています。
+
+3時間ごとの一日の天気予報（Yahoo!天気）
+http://weather.yahoo.co.jp/weather/jp/28/6310/28102.html
+週間天気予報（Yahoo!天気）
+http://rss.weather.yahoo.co.jp/rss/days/6310.xml
+傘指数、傘に関する情報（Yahoo!天気）
+http://weather.yahoo.co.jp/weather/jp/expo/umbrella/28/6310.html
+
+以下のフレームワークを利用させて頂きました。
+https://github.com/abraham/twitteroauth
